@@ -1,8 +1,6 @@
 package no.hvl.dat152;
 
 import java.io.IOException;
-import java.io.PrintWriter;
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -10,16 +8,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class TestServlet
+ * Servlet implementation class CartServlet
  */
-@WebServlet(name = "TestServlet", urlPatterns = "/home")
-public class TestServlet extends HttpServlet {
+@WebServlet("/cart")
+public class CartServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public TestServlet() {
+    public CartServlet() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -28,11 +26,8 @@ public class TestServlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.setContentType("text/plain");
-		
-		PrintWriter out = response.getWriter();
-		
-		out.println("It fakkin works!");
+		// TODO Auto-generated method stub
+		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
 	/**

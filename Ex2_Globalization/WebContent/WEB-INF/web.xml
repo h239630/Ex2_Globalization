@@ -5,7 +5,7 @@
     <welcome-file>home</welcome-file>
   </welcome-file-list>
   <servlet>
-  	<servlet-name>TestServlet</servlet-name>
-  	<servlet-class>no.hvl.dat152.TestServlet</servlet-class>
+  	<servlet-name>HomeServlet</servlet-name>
+  	<servlet-class>no.hvl.dat152.HomeServlet</servlet-class>
   </servlet>
 </web-app>
