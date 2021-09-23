@@ -22,5 +22,8 @@
 		</p>
 	
 	</fmt:bundle>
+	<!-- Ved levering a prosjekt skal nederste linjen legges i istedet.  -->
+	<p><i>&copy; MMVIII-MMXXI Høgskulen på Vestlandet</i></p>
+	<!-- <T:copyright since="2008"> HVL </T:copyright> -->
 </body>
 </html>

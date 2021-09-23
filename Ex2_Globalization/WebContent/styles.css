@@ -2,9 +2,17 @@ body {
 	background-color: #b1e4f5;
 }
 
-
-
 .logo {
 	width: 150px;
 	height: 150px;
+}
+
+.product-image {
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+
+.product-text {
+	float: center;
 }

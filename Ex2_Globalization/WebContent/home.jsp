@@ -17,9 +17,7 @@
 	<img class="logo" src="images/javacoffee.png">
 	
 	<fmt:bundle basename="no.hvl.dat152.resources.Messages">
-		<h3>
-			<fmt:message key="greeting"/>
-		</h3>
+		<h3><fmt:message key="greeting"/></h3>
 		
 		<p> 
 			<fmt:message key="lookAt"/> <a href="products.jsp"><fmt:message key="products"/></a>
@@ -29,5 +27,6 @@
 	<!-- Her må vi egentlig legge til ett custom html element som tar inn et start år og nåværende år
 			og som så konverterer dem til romertall -->
 	<p><i>&copy; MMVIII-MMXXI Høgskulen på Vestlandet</i></p>
+	<!-- <T:copyright since="2008"> HVL </T:copyright> -->
 </body>
 </html>

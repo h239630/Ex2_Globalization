@@ -10,17 +10,41 @@
 <title>Products</title>
 </head>
 <body>
-
 	<p><jsp:include page="chooseLanguage.jsp"></jsp:include>
 	
 	<fmt:bundle basename="no.hvl.dat152.resources.Messages">
 		<h1><strong><fmt:message key="products"></fmt:message></strong></h1>
+		
+		<h2><strong>White Coffee Cup(TM) </strong></h2>
+		
+		<img class="product-image" src="images/whitecup.jpg">
+			
+		<div class="product-text">
+			<p><fmt:message key="name"></fmt:message>: White Coffee Cup(TM) </p>
+			<p><fmt:message key="price"></fmt:message>: 52.00 </p>
+			<p><fmt:message key="description"></fmt:message>:<fmt:message key="descText"></fmt:message></p>
+			<button type="button"><fmt:message key="add"></fmt:message></button>
+		</div>
+		
+		<h2><strong>Black Coffee Cup</strong></h2>
+		
+		<img class="product-image" src="images/blackcup.jpeg">
+		
+		<div class="product-text">
+			<p><fmt:message key="name"></fmt:message>: White Coffee Cup(TM) </p>
+			<p><fmt:message key="price"></fmt:message>: 52.00 </p>
+			<p><fmt:message key="description"></fmt:message>:<fmt:message key="descText"></fmt:message></p>
+			<button type="button"><fmt:message key="add"></fmt:message></button>
+		</div>
 		
 		<p>
 			<span><a href="home.jsp"><fmt:message key="home"/></a></span>
 			<span><a href="cart.jsp"><fmt:message key="cart"/></a></span>
 		</p>
 	</fmt:bundle>
+	<!-- Ved levering a prosjekt skal nederste linjen legges i istedet.  -->
+	<p><i>&copy; MMVIII-MMXXI Høgskulen på Vestlandet</i></p>
+	<!-- <T:copyright since="2008"> HVL </T:copyright> -->
 
 </body>
 </html>
