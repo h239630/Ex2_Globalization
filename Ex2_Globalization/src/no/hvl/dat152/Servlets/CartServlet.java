@@ -1,4 +1,4 @@
-package no.hvl.dat152;
+package no.hvl.dat152.Servlets;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -8,16 +8,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class products
+ * Servlet implementation class CartServlet
  */
-@WebServlet("/products")
-public class ProductsServlet extends HttpServlet {
+@WebServlet("/cart")
+public class CartServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public ProductsServlet() {
+    public CartServlet() {
         super();
         // TODO Auto-generated constructor stub
     }

@@ -1,6 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<%@ taglib uri="dat152-libs" prefix="T"%>
+    
     
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -24,9 +26,9 @@
 		</p>
 	
 	</fmt:bundle>
-	<!-- Her må vi egentlig legge til ett custom html element som tar inn et start år og nåværende år
-			og som så konverterer dem til romertall -->
-	<p><i>&copy; MMVIII-MMXXI Høgskulen på Vestlandet</i></p>
-	<!-- <T:copyright since="2008"> HVL </T:copyright> -->
+	<p>
+	<T:shorttext maxchars="10"> asødlk aøsdlkaøslølskdøaksdøaksd </T:shorttext>
+	</p>
+	<i><T:copyright since="2008" name="HVL"></T:copyright></i>
 </body>
 </html>

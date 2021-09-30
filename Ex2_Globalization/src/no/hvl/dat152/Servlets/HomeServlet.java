@@ -1,4 +1,4 @@
-package no.hvl.dat152;
+package no.hvl.dat152.Servlets;
 
 import java.io.IOException;
 import java.util.Locale;
