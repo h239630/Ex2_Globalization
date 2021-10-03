@@ -26,9 +26,6 @@
 		</p>
 	
 	</fmt:bundle>
-	<p>
-	<T:shorttext maxchars="10"> asødlk aøsdlkaøslølskdøaksdøaksd </T:shorttext>
-	</p>
 	<i><T:copyright since="2008" name="HVL"></T:copyright></i>
 </body>
 </html>

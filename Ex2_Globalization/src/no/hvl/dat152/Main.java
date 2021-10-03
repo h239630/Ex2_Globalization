@@ -1,4 +1,4 @@
-package no.hvl.dat152.JavaApp;
+package no.hvl.dat152;
 
 public class Main {
 

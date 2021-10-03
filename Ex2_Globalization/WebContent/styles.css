@@ -16,3 +16,7 @@ body {
 .product-text {
 	float: center;
 }
+
+.table {
+  border:1px solid black;
+}

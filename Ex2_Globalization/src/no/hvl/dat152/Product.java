@@ -1,13 +1,13 @@
-package no.hvl.dat152.JavaApp;
+package no.hvl.dat152;
 
 public class Product {
 	
 	private int pno;
 	private String pName;
-	private String priceInEuro;
+	private double priceInEuro;
 	private String imageFile;
 	
-	public Product(int pno, String pName, String priceInEuro, String imageFile) {
+	public Product(int pno, String pName, double priceInEuro, String imageFile) {
 		super();
 		this.pno = pno;
 		this.pName = pName;
@@ -46,14 +46,14 @@ public class Product {
 	/**
 	 * @return the priceInEuro
 	 */
-	public String getPriceInEuro() {
+	public double getPriceInEuro() {
 		return priceInEuro;
 	}
 
 	/**
 	 * @param priceInEuro the priceInEuro to set
 	 */
-	public void setPriceInEuro(String priceInEuro) {
+	public void setPriceInEuro(double priceInEuro) {
 		this.priceInEuro = priceInEuro;
 	}
 
@@ -69,6 +69,12 @@ public class Product {
 	 */
 	public void setImageFile(String imageFile) {
 		this.imageFile = imageFile;
+	}
+
+	@Override
+	public String toString() {
+		return "Product [pno=" + pno + ", pName=" + pName + ", priceInEuro=" + priceInEuro + ", imageFile=" + imageFile
+				+ "]";
 	}
 	
 	

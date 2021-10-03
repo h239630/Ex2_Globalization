@@ -1,4 +1,4 @@
-package no.hvl.dat152.JavaApp;
+package no.hvl.dat152;
 
 public class Description {
 	
@@ -53,6 +53,11 @@ public class Description {
 	 */
 	public void setText(String text) {
 		this.text = text;
+	}
+
+	@Override
+	public String toString() {
+		return "Description [pno=" + pno + ", langCode=" + langCode + ", text=" + text + "]";
 	} 
 	
 	
