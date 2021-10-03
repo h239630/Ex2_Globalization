@@ -24,22 +24,22 @@
 			
 		<div class="product-text">
 			<p><fmt:message key="name"></fmt:message>: White Coffee Cup(TM) </p>
-			<p><fmt:message key="price"></fmt:message>: 52.00 </p>
+			<p><fmt:message key="price"></fmt:message>: 6.5 </p>
 			<p><fmt:message key="description"></fmt:message>:<fmt:message key="descText"></fmt:message></p>
 			<button type="button"><fmt:message key="add"></fmt:message></button>
 		</div>
-		
-		<h2><strong>Black Coffee Cup</strong></h2>
+		<br>
+		<h2><strong>Black Coffee Cup (TM)</strong></h2>
 		
 		<img class="product-image" src="images/blackcup.jpeg">
 		
 		<div class="product-text">
-			<p><fmt:message key="name"></fmt:message>: White Coffee Cup(TM) </p>
-			<p><fmt:message key="price"></fmt:message>: 52.00 </p>
+			<p><fmt:message key="name"></fmt:message>: Black Coffee Cup(TM) </p>
+			<p><fmt:message key="price"></fmt:message>: 4.75 </p>
 			<p><fmt:message key="description"></fmt:message>:<fmt:message key="descText"></fmt:message></p>
 			<button type="button"><fmt:message key="add"></fmt:message></button>
 		</div>
-		
+		<br>
 		<p>
 			<span><a href="/home"><fmt:message key="home"/></a></span>
 			<span><a href="cart"><fmt:message key="cart"/></a></span>

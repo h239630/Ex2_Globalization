@@ -17,16 +17,24 @@
 	<fmt:bundle basename="no.hvl.dat152.resources.Messages">
 		<h1><strong><fmt:message key="cart"></fmt:message></strong></h1>
 		
-		<table class="table">
-			<tr class="table"> 
-				<th class="table"><fmt:message key="name"></fmt:message></th>
-				<th class="table"><fmt:message key="price"></fmt:message></th>
+		<table>
+			<tr> 
+				<th><fmt:message key="name"></fmt:message></th>
+				<th><fmt:message key="shortDesc"></fmt:message></th>
+				<th><fmt:message key="price"></fmt:message></th>
+				<th><fmt:message key="quantity"></fmt:message></th>
+				<th>Total</th>
 			</tr>
 			<c:forEach items="${products}" var="product">
-				<tr class="table">
-					<td class="table"><c:out value="${product.pName}"/></td>
-					<td class="table"><c:out value="${product.priceInEuro}"/> </td>
+			
+				<tr>
+					<td><c:out value="${product.pName}"/></td>
+					<td><T:shorttext maxchars = "10"><fmt:message key="descText"></fmt:message></T:shorttext></td>
+					<td><c:out value="${product.priceInEuro}"/> </td>
+					<td><c:out value="${product.pno}"/></td>
+					<td> 19.40 </td>
 				</tr>						
+			
 			</c:forEach>
 		</table>
 		

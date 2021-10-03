@@ -11,9 +11,7 @@ private List<Description> descriptions;
 	public ProductMockDAO() {
 		products = new ArrayList<Product>();
 		descriptions = new ArrayList<Description>();
-	}
-	
-	public void populate() {
+		
 		Product p1 = new Product(1, "White Coffee Cup(TM)", 6.50, "images/whitecup.jpg");
 		Product p2 = new Product(2, "Black Coffee Cup(TM)", 4.75, "images/blackcup.jpeg");
 		products.add(p1);
@@ -45,6 +43,7 @@ private List<Description> descriptions;
 		descriptions.add(d22);
 		descriptions.add(d23);
 	}
+	
 	
 	public List<Product> getProdutcts() {
 		return products;

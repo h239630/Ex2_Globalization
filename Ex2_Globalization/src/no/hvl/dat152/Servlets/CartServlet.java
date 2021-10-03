@@ -55,7 +55,7 @@ public class CartServlet extends HttpServlet {
 			response.addCookie(localeCookie);
 					
 		}
-		productDAO.populate();
+		
 		List<Product> products = productDAO.getProdutcts();
 		List<Description> descriptions = productDAO.getDescriptions();
 		request.setAttribute("products", products);
